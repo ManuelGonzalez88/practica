@@ -1,5 +1,13 @@
 /* font-family: 'Work Sans', sans-serif; */
 
+body {
+    margin: 50px;
+    background: rgba(255, 138, 0, 0.66);
+    background: linear-gradient(147deg, rgba(255, 138, 0, 0.66) 0%, rgba(255, 184, 0, 0.39) 80%);
+    background: -webkit-linear-gradient(147deg, rgba(255, 138, 0, 0.66) 0%, rgba(255, 184, 0, 0.39) 80%);
+    background: -moz-linear-gradient(147deg, rgba(255, 138, 0, 0.66) 0%, rgba(255, 184, 0, 0.39) 80%);
+}
+
 .titulo {
     /* background-color: rgb(28, 28, 160); */
     color: white;
