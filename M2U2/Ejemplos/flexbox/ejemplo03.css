@@ -2,8 +2,8 @@
 	background-color: blue;
 	display: inline-flex;
 	 flex-wrap: nowrap; 
-	/*flex-wrap: wrap;*/ 
-	/* flex-wrap: wrap-reverse;*/ 
+	flex-wrap: wrap; 
+	flex-wrap: wrap-reverse; 
 }
 
 .item{

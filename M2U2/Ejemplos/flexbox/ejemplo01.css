@@ -1,6 +1,6 @@
 .contenedor{
 	background-color: blue;
-	/* display: inline-flex; */
+	display: inline-flex;
 	display: flex;
 }
 
