@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document para menos de 800px */
+
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	background: rgb(225, 175, 73);
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #F1F2C0;
+	text-decoration: none;
+}
+
+section {
+	background: #F1F2C0;
+}
+
+aside {
+	background: #CCC59E;
+}
