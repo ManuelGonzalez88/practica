@@ -1,0 +1,56 @@
+
+.centrado_borde {
+    border: solid 2px black;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.brown{
+    background-color: brown;
+    color: white;
+}
+
+.violet{
+    background-color: blueviolet;
+    color: white;
+}
+
+.lightblue{
+    background-color: aqua;
+}
+.primer-fila{
+    height: auto;
+}
+
+.table{
+    color: white;
+}
+
+.margin{
+    margin-top: 55px;
+}
