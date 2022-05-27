@@ -74,6 +74,7 @@ nav ul li a:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
+    color: white;
 }
 
 .activo {
@@ -92,7 +93,7 @@ h2 {
     font-weight: 400;
     font-size: 35px;
     font-style: italic;
-    margin-left: 20px;
+    margin: 35px;
 }
 
 main p {
@@ -150,4 +151,58 @@ h4 {
     padding-left: 10px;
     padding-right: 20px;
     margin-right: 20px;
+}
+
+/* contacto */
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contacto .box {
+    width: 100%;
+    border: 2px rgb(64, 61, 61) solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px 5px 10px 10px;
+    align-items: center;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.56);
+}
+
+.formulario p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario p label {
+    min-width: 80px;
+}
+
+.formulario textarea {
+    height: 100px;
+    resize: none;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+}
+
+.box img {
+    width: 60px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.contacto h5 {
+    font-size: 15px;
 }
