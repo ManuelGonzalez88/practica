@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+</head>
+
+<body>
+    <script>
+        var numero;
+        var numeros;
+        var mayor;
+        var i;
+
+        numeros = [0]
+        i = 0;
+        mayor = 0;
+
+        numero = prompt('para crear lista oprima 1');
+        while (numero != 0) {
+            numero = prompt('ingrese un numero o para finalizar ingrese 0'); //para crear el array manualmente y con el largo deseado
+            numeros[i] = numero;
+            i = i + 1;
+        }
+        console.log(numeros); //para ver el array
+
+        for (i = 0; i < numeros.length; i ++) {   //busca el mayor en el array
+            if (mayor < numeros[i]) {
+                mayor = numeros[i];
+            }
+        }
+        document.write('el numero mayor es: ' + mayor);
+
+    </script>
+</body>
+
+</html>
