@@ -15,14 +15,14 @@
         var mayor;
         var i;
 
-        numeros = [0]
+        numeros = Array();
         i = 0;
         mayor = 0;
 
-        numero = prompt('para crear lista oprima 1');
+        numero = prompt('ingrese un numero o para finalizar ingrese 0');
         while (numero != 0) {
-            numero = prompt('ingrese un numero o para finalizar ingrese 0'); //para crear el array manualmente y con el largo deseado
             numeros[i] = numero;
+            numero = prompt('ingrese un numero o para finalizar ingrese 0'); //para crear el array manualmente y con el largo deseado
             i = i + 1;
         }
         console.log(numeros); //para ver el array
