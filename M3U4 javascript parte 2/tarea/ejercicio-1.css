@@ -1,0 +1,29 @@
+.contenedor {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#rojo {
+    background-color: red; 
+    border: 1px solid black;
+    color: white; 
+    margin-top: 5px;
+    margin-left: 20px;      
+}
+
+#verde {
+    background-color: green; 
+    border: 1px solid black;
+    color: white;  
+    margin-top: 5px; 
+    margin-left: 20px; 
+}
+
+#azul {
+    background-color: blue; 
+    border: 1px solid black;
+    color: white;  
+    margin-top: 5px;  
+    margin-left: 20px;
+}
