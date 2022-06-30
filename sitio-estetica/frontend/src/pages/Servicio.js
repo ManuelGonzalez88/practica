@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 const Servicio = (props) => {
     return (
         <main className="holder">

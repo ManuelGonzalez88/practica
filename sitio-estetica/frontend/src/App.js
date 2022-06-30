@@ -11,6 +11,10 @@ import Servicio from './pages/Servicio';
 import Promos from './pages/Promos';
 import Contacto from './pages/Contacto';
 
+import '../src/Styles/normalize.css';
+import '../src/Styles/estetica.css';
+
+
 
 function App() {
   return (
